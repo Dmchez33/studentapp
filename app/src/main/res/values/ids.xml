@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="todo" type="id" />
+    <item name="imageschool" type="id" />
+    <item name="annoce" type="id" />
+    <item name="demande" type="id" />
+    <item name="inscription" type="id" />
+    <item name="releve" type="id" />
+    <item name="editNom" type="id" />
+    <item name="editPrenom" type="id" />
+    <item name="editDateNaissance" type="id" />
+    <item name="editFiliere" type="id" />
+    <item name="editClasse" type="id" />
+    <item name="fragment_inscription" type="id" />
+    <item name="contenudemande" type="id" />
+    <item name="objectif" type="id" />
+    <item name="addButton1" type="id" />
+    <item name="noteList1" type="id" />
+</resources>

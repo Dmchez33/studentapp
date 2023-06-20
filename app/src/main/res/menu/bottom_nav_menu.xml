@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Accueil"
+        android:id="@+id/dashbord"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:title="A faire"
+        android:id="@+id/todo"
+        android:icon="@drawable/baseline_calendar_today_24"/>
+    <item
+        android:title="Demande"
+        android:id="@+id/demande"
+        android:icon="@drawable/baseline_dashboard_24"/>
+    <item
+        android:title="Incription"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_account_circle_24"/>
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.InscriptionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <!-- ... autres vues ... -->
+
+        <EditText
+            android:id="@+id/editNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom" />
+
+        <EditText
+            android:id="@+id/editPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom" />
+
+        <EditText
+            android:id="@+id/editDateNaissance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date de naissance" />
+
+        <EditText
+            android:id="@+id/editFiliere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Filière" />
+
+        <EditText
+            android:id="@+id/editClasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Classe" />
+
+        <!-- ... autres vues ... -->
+        <!-- Bouton pour ajouter la note -->
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+
+            android:text="Inscrire" />
+
+
+
+        <ListView
+            android:id="@+id/noteList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
